@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContentProviderApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_add_title">Add Country</string>
+    <string name="add_country_title">Add Country</string>
+    <string name="edit_country_title">Edit Country</string>
+</resources>
