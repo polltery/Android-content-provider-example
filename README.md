@@ -22,4 +22,4 @@ The application has several class files that build up the content provider along
 ## Author
 - Balraj Singh Bains
 
-Note: This application was built as a part of Heriot Watt University Coursework for Mobile Communications and Programming.
+Note: This application was built as a part of Heriot Watt University Coursework for Mobile Communications and Programming and was forked from there to showcase on Github.
