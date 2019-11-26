@@ -41,7 +41,7 @@ public class CountryListLoader extends AsyncTaskLoader<List<Country>> {
 
         List<Country> entries = new ArrayList<Country>();
 
-        mCursor = mContentResolver.query(CountryContract.URI_TABLE, projection, null, null, null);
+        mCursor = mContentResolver.query(CountryContract.URI_TABLE, projection, null, null, CountryContract.CountryColumns.COUNTRY_NAME + " limit 20");
 
         if(mCursor != null){
             if(mCursor.moveToFirst()){
